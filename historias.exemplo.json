@@ -1,0 +1,54 @@
+[
+  {
+    "id_video": "lenda_saci",
+    "historia_completa": "O Saci-Pererê é uma das lendas mais famosas do folclore brasileiro. Com seu gorro vermelho mágico e apenas uma perna, ele apronta travessuras nas florestas. Dizem que ele adora fazer trança nas crinas dos cavalos e esconder objetos das pessoas. Para capturá-lo, é preciso arrancar seu gorro vermelho.",
+    "cenas": [
+      "Brazilian folklore character Saci, one-legged boy with red cap, mischievous smile, forest background, fantasy art style",
+      "Magical red cap floating in the air, mystical glow, enchanted forest atmosphere",
+      "Horses with braided manes in a farm, night scene, mysterious atmosphere",
+      "Hidden objects appearing in strange places, magical realism style"
+    ],
+    "legendas": [
+      "O Saci-Pererê",
+      "Com seu gorro mágico",
+      "Apronta travessuras",
+      "Uma lenda brasileira"
+    ]
+  },
+  {
+    "id_video": "tartaruga_e_lebre",
+    "historia_completa": "A lebre zombava da tartaruga por ser lenta. Irritada, a tartaruga a desafiou para uma corrida. A lebre, confiante, correu rapidamente e depois parou para tirar uma soneca. Enquanto isso, a tartaruga seguiu devagar, mas sem parar. Quando a lebre acordou, viu a tartaruga cruzando a linha de chegada. Moral: devagar e sempre vence a corrida.",
+    "cenas": [
+      "Hare mocking a slow turtle, forest path, cartoon style, vibrant colors",
+      "Race starting line with hare and turtle, determined expressions, storybook illustration",
+      "Hare sleeping under a tree, peaceful scene, warm lighting",
+      "Turtle crossing finish line while hare wakes up surprised, dramatic moment",
+      "Turtle winner celebrating, inspirational scene, sunset backdrop"
+    ],
+    "legendas": [
+      "A lebre zombava da tartaruga",
+      "Começou a corrida!",
+      "A lebre dormiu confiante",
+      "A tartaruga seguiu sem parar",
+      "E venceu a corrida!"
+    ]
+  },
+  {
+    "id_video": "origem_do_arco_iris",
+    "historia_completa": "Há muito tempo, o mundo era cinza e sem cores. Um dia, uma criança corajosa decidiu escalar a montanha mais alta para pedir cores ao céu. No topo, ela encontrou sete pedras preciosas brilhantes. Quando a chuva começou, ela jogou as pedras no ar, e elas se transformaram no primeiro arco-íris, pintando o mundo com suas cores.",
+    "cenas": [
+      "Gray colorless world, sad atmosphere, monochrome landscape, fantasy art",
+      "Brave child climbing tall mountain, determined expression, epic scene",
+      "Seven glowing precious gemstones at mountain peak, magical atmosphere, sparkling",
+      "Child throwing gems into rainy sky, dynamic action scene",
+      "First rainbow appearing in sky, vibrant colors spreading, magical moment, beautiful"
+    ],
+    "legendas": [
+      "O mundo era sem cores",
+      "Uma criança corajosa",
+      "Encontrou pedras mágicas",
+      "E criou o arco-íris!"
+    ]
+  }
+]
+

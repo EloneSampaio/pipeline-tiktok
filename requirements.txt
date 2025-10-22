@@ -1,0 +1,51 @@
+# ========================================================================
+# REQUIREMENTS.TXT - Pipeline de Geração Automática de Vídeos
+# ========================================================================
+# Este arquivo contém todas as dependências necessárias para executar
+# o pipeline de geração de vídeos com IA (TTS + Stable Diffusion)
+# ========================================================================
+
+# --- PyTorch (CUDA 12.1) ---
+# Framework de deep learning base para todos os modelos
+torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+
+# --- Text-to-Speech (TTS) ---
+# Coqui TTS para geração de voz com clonagem
+TTS==0.22.0
+
+# --- Geração de Imagens (Stable Diffusion) ---
+# Modelos de difusão para text-to-image
+diffusers==0.26.3
+accelerate==0.25.0
+
+# --- Transformers & NLP ---
+# Biblioteca da HuggingFace para modelos de linguagem
+transformers==4.36.2
+
+# --- Processamento de Imagens ---
+Pillow==9.5.0
+
+# --- Processamento Científico ---
+numpy==1.22.0
+scipy==1.11.4
+
+# --- Edição de Vídeo ---
+# MoviePy para montagem e composição de vídeos
+moviepy==1.0.3
+
+# --- Dependências Adicionais (opcional) ---
+# Descomentar se necessário:
+# imageio==2.34.0
+# imageio-ffmpeg==0.4.9
+# decorator==4.4.2
+# proglog==0.1.10
+# tqdm==4.66.1
+
+# ========================================================================
+# INSTALAÇÃO:
+# pip install -r requirements.txt
+# 
+# NOTA: Certifique-se de ter CUDA 12.1 instalado para usar GPU
+# ========================================================================

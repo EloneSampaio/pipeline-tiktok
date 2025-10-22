@@ -1,0 +1,26 @@
+{
+    "json_file": "historias.json",
+    "output_folder": "saida",
+    "models": {
+      "t2i": "Lykon/dreamshaper-8",
+      "tts": "tts_models/multilingual/multi-dataset/xtts_v2"
+    },
+    "audio": {
+      "language": "pt",
+      "voice_clone_wav": "minha_voz.wav",
+      "music_file": "musica_fundo.mp3",
+      "music_volume": 0.1
+    },
+    "video": {
+      "format": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "threads": 8,
+      "caption_fontsize": 70,
+      "caption_font": "Arial-Bold",
+      "caption_stroke": 2,
+      "transition_duration": 0.5
+    }
+  }

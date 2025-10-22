@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Arquivos de Saída
+saida/
+*.mp4
+*.wav
+*.png
+imagens_*/
+
+# Logs
+*.log
+pipeline_*.log
+
+# Modelos (muito grandes para git)
+models/
+.cache/
+huggingface/
+
+# Configuração Local (pode conter caminhos específicos)
+config.local.json
+
+# Arquivos de voz/música (opcionais e pesados)
+*.mp3
+voz_referencia.wav
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporários
+tmp/
+temp/
+*.tmp
+requirements_temp.txt
+
