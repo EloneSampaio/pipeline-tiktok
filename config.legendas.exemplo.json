@@ -1,0 +1,91 @@
+{
+  "_comentario": "Configurações de legendas estilo TikTok/Shorts",
+  "legendas": {
+    "_descricao": "Todas as opções de customização de legendas",
+    
+    "font": "Impact",
+    "_font_info": "Nome da fonte ou caminho completo. Exemplos: 'Impact', 'Arial-Bold', '/path/to/font.ttf'. Fontes do sistema: Impact, Arial, Helvetica, Times New Roman, Courier, Comic Sans MS",
+    
+    "font_size": 70,
+    "_font_size_info": "Tamanho da fonte em pixels. Recomendado: 50-100 para vertical (1080x1920), 30-60 para horizontal",
+    
+    "font_color": "#FFFFFF",
+    "_font_color_info": "Cor da fonte em hexadecimal. Exemplos: '#FFFFFF'=branco, '#FFFF00'=amarelo, '#FF0000'=vermelho, '#00FF00'=verde, '#0000FF'=azul",
+    
+    "stroke_width": 4,
+    "_stroke_width_info": "Largura do contorno em pixels. Recomendado: 3-5. Use 0 para sem contorno",
+    
+    "stroke_color": "#000000",
+    "_stroke_color_info": "Cor do contorno em hexadecimal. '#000000'=preto é o padrão mais usado",
+    
+    "shadow_strength": 2,
+    "_shadow_strength_info": "Intensidade da sombra em pixels. Recomendado: 1-3. Use 0 para sem sombra",
+    
+    "highlight_current_word": true,
+    "_highlight_current_word_info": "true = destaca palavra sendo falada (estilo karaoke). false = todas palavras mesma cor",
+    
+    "word_highlight_color": "#FFFF00",
+    "_word_highlight_color_info": "Cor do destaque quando highlight_current_word=true. '#FFFF00'=amarelo, '#FF0000'=vermelho",
+    
+    "max_palavras_por_linha": 3,
+    "_max_palavras_por_linha_info": "Quantas palavras mostrar por vez. Recomendado: 2-4. Mais palavras = mais texto na tela",
+    
+    "padding": 80,
+    "_padding_info": "Margem inferior em pixels. Distância da borda inferior. Recomendado: 50-120"
+  },
+  
+  "_exemplos_presets": {
+    "estilo_tiktok_classico": {
+      "font": "Impact",
+      "font_size": 70,
+      "font_color": "#FFFFFF",
+      "stroke_width": 4,
+      "stroke_color": "#000000",
+      "shadow_strength": 2,
+      "highlight_current_word": true,
+      "word_highlight_color": "#FFFF00",
+      "max_palavras_por_linha": 3,
+      "padding": 80
+    },
+    
+    "estilo_minimalista": {
+      "font": "Arial-Bold",
+      "font_size": 60,
+      "font_color": "#FFFFFF",
+      "stroke_width": 2,
+      "stroke_color": "#000000",
+      "shadow_strength": 1,
+      "highlight_current_word": false,
+      "word_highlight_color": "#FFFF00",
+      "max_palavras_por_linha": 4,
+      "padding": 60
+    },
+    
+    "estilo_neon": {
+      "font": "Impact",
+      "font_size": 75,
+      "font_color": "#00FFFF",
+      "stroke_width": 5,
+      "stroke_color": "#FF00FF",
+      "shadow_strength": 3,
+      "highlight_current_word": true,
+      "word_highlight_color": "#FFFF00",
+      "max_palavras_por_linha": 2,
+      "padding": 90
+    },
+    
+    "estilo_sutil": {
+      "font": "Helvetica",
+      "font_size": 50,
+      "font_color": "#FFFFFF",
+      "stroke_width": 1,
+      "stroke_color": "#000000",
+      "shadow_strength": 0,
+      "highlight_current_word": false,
+      "word_highlight_color": "#FFFF00",
+      "max_palavras_por_linha": 5,
+      "padding": 50
+    }
+  }
+}
+

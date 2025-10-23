@@ -57,4 +57,5 @@ tmp/
 temp/
 *.tmp
 requirements_temp.txt
+saida/*
 
